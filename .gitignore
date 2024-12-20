@@ -1,0 +1,92 @@
+# Maven/Gradle specific files
+target/
+build/
+!src/main/resources/static/**/build/
+
+# Eclipse specific files
+.settings/
+.project
+.classpath
+
+# IntelliJ IDEA specific files
+.idea/
+*.iml
+*.iws
+out/
+
+# NetBeans specific files
+nbproject/private/
+build/
+nbbuild/
+dist/
+nbdist/
+.nb-gradle/
+
+# VSCode specific files
+.vscode/
+
+# Operating system specific files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Logs and debug files
+*.log
+*.log.*
+
+# Temporary files
+*.tmp
+*.temp
+*.swp
+*~
+
+# System Files
+*.bak
+*.orig
+
+# Git specific files
+*.rej
+*.orig
+*.patch
+
+# Java compiled files
+*.class
+
+# Package files
+*.jar
+*.war
+*.ear
+
+# Spring Boot specific
+*.pid
+*.hprof
+
+# Environment Files
+.env
+.env.*
+
+# Database files
+*.db
+*.sql
+*.sqlite
+
+# Dependency directories
+/.mvn
+/.gradle
+
+# Exclude Spring Boot devtools
+spring-boot-devtools-*.jar
+
+# Ignore application-specific configuration files
+application.properties
+application.yml
+application-dev.properties
+application-test.properties
+application-prod.properties
+application*.yaml
+
+# JetBrains Rider
+.idea/
+*.sln.iml
+*.userprefs
+
